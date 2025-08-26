@@ -45,7 +45,7 @@ Este projeto foi construído utilizando um stack moderno, escalável e robusto.
 
 -----
 
-## 🏗️ Estrutura do Projeto
+## 🏗️ Estrutura do projeto desejável
 
 ```
 /
@@ -76,22 +76,6 @@ Este projeto foi construído utilizando um stack moderno, escalável e robusto.
 
 -----
 
-## ⚙️ API Endpoints
-
-A API REST segue os padrões de mercado e está documentada via Swagger.
-
-| Método HTTP | Endpoint                  | Descrição                                        | Requer Auth |
-| :---------- | :------------------------ | :----------------------------------------------- | :---------- |
-| `POST`      | `/auth/register`          | Registra um novo usuário.                        | Não         |
-| `POST`      | `/auth/login`             | Autentica um usuário e retorna um token JWT.     | Não         |
-| `GET`       | `/revenue-cycles`         | Lista todos os ciclos de receita com paginação.  | Sim         |
-| `POST`      | `/revenue-cycles`         | Cria um novo registro de ciclo de receita.       | Sim         |
-| `GET`       | `/revenue-cycles/{id}`    | Retorna os detalhes de um ciclo específico.      | Sim         |
-| `PUT`       | `/revenue-cycles/{id}`    | Atualiza um ciclo de receita existente.          | Sim         |
-| `DELETE`    | `/revenue-cycles/{id}`    | Remove um ciclo de receita.                      | Sim         |
-
------
-
 ## 🗄️ Modelo da Entidade `RevenueCycle`
 
 | Campo         | Tipo de Dado                                          | Descrição                                 |
@@ -109,17 +93,6 @@ A API REST segue os padrões de mercado e está documentada via Swagger.
 | `createdAt`   | `DateTime`                                            | Data de criação do registro.              |
 | `updatedAt`   | `DateTime`                                            | Data da última atualização.               |
 
------
-
-## 🚀 Como Rodar Localmente
-
-Siga os passos abaixo para configurar e executar o projeto em seu ambiente de desenvolvimento.
-
-### Pré-requisitos
-
-  - [Git](https://git-scm.com/)
-  - [Docker](https://www.docker.com/get-started)
-  - [Docker Compose](https://docs.docker.com/compose/install/)
 -----
 
 ## 📦 Entrega do Projeto
