@@ -18,7 +18,7 @@ O fluxo do ciclo de receita implementado inclui as seguintes etapas:
 
 Este projeto foi construído utilizando um stack moderno, escalável e robusto.
 
-  - **Backend**: **FastAPI** (Python)
+  - **Backend**: **FastAPI** (Python) ou NesJS (Typescript)
       - **ORM**: SQLAlchemy com Alembic para migrações.
       - **Validação**: Pydantic.
       - **Autenticação**: JWT (JSON Web Tokens).
