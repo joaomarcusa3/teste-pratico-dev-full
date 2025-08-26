@@ -153,14 +153,6 @@ Antes de enviar, por favor, verifique se o seu projeto atende aos seguintes crit
   - [ ] O fluxo de ponta a ponta (registro de usuário, login e operações CRUD do ciclo de receita) está funcionando através da interface do frontend.
   - [ ] O arquivo de pipeline `.gitlab-ci.yml` está presente na raiz do projeto.
 
-### E-mail para Envio
-
-Envie o link do repositório ou o arquivo `.zip` para:
-
-\*\* destinatário: joao.marcus@a3data.com.br \*\*
-
-**Assunto:** Desafio Técnico Backend/Frontend - [Seu Nome Completo]
-
 -----
 
 Boa sorte\!
